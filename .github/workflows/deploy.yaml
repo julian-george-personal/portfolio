@@ -22,7 +22,7 @@ jobs:
       - name: Install AWS CLI
         run: |
           sudo apt-get update
-          sudo apt-get install -y awscli
+          sudo apt-get install -y aws-cli
       - name: Upload index.html to S3
         run: |
           aws s3 cp public s3://${{ secrets.AWS_S3_BUCKET }}/${{ env.SITE_NAME }} --recursive
