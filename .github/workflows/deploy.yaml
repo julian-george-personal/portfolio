@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: S3 CI
 
 on:
   push:
