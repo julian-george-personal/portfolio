@@ -1,0 +1,26 @@
+.container-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-row {
+    display: flex;
+    flex-direction:row;
+}
+
+.no-margin {
+    margin:0
+}
+
+.image {
+    width: 12rem;
+    height:12rem;
+}
+
+.header-link {
+    color:black
+}
